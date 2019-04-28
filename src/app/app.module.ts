@@ -17,10 +17,11 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   imports: [
+    AppRoutingModule,
     BrowserModule,
     FormsModule,
-    AppRoutingModule,
     HttpClientModule,
+
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
