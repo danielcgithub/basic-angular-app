@@ -9,7 +9,7 @@ describe('workspace-project App', () => {
   });
 
   it('should display welcome message', () => {
-    page.navigateTo();
+    page.navigateToBaseUrl();
     expect(page.getTitleText()).toEqual('Welcome to Tour of Heroes!');
   });
 
